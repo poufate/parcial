@@ -1,0 +1,65 @@
+[
+  {
+    "numero":"1",
+    "carta":"as",
+    "cantidad":"0;"
+  },
+  {
+    "numero":"2",
+    "carta":"2 de corazones",
+    "cantidad":"0;"
+  },
+  {
+    "numero":"3",
+    "carta":"3 de corazones",
+    "cantidad":"0;"
+  },
+  {
+    "numero":"4",
+    "carta":"4 de corazones",
+    "cantidad":"0;"
+  },
+  {
+    "numero":"5",
+    "carta":"5 de corazones",
+    "cantidad":"0;"
+  },
+  {
+    "numero":"6",
+    "carta":"6 de corazones",
+    "cantidad":"0;"
+  },
+  {
+    "numero":"7",
+    "carta":"7 de corazones",
+    "cantidad":"0;"
+  },  {
+      "numero":"8",
+      "carta":"8 de corazones",
+      "cantidad":"0;"
+    },  {
+        "numero":"8",
+        "carta":"8 de corazones",
+        "cantidad":"0;"
+      },  {
+          "numero":"9",
+          "carta":"9 de corazones",
+          "cantidad":"0;"
+        },  {
+            "numero":"10",
+            "carta":"J de corazones",
+            "cantidad":"0;"
+          },  {
+              "numero":"11",
+              "carta":"Q de corazones",
+              "cantidad":"0;"
+            },  {
+                "numero":"12",
+                "carta":"K de corazones",
+                "cantidad":"0;"
+              }
+
+
+
+
+]
