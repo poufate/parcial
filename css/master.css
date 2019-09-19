@@ -1,0 +1,41 @@
+#logo{
+  height: 100px;
+}
+header{
+  background-color: green;
+}
+.formulario *{
+ margin-top: auto;
+ margin-bottom: auto;
+ border: auto;
+
+}
+.formulario{
+  margin-top: 10%;
+  border: 2px solid black;
+}
+.centrados{
+
+  text-align: center;
+  padding: 2px;
+  display: block;
+margin: auto;
+}
+#Columnas {
+text-align: center;
+  padding: 2px;
+  display: block;
+margin: 0px;
+}
+#lateral-iz img{
+  width: 70%;
+  display: block;
+margin: auto;
+
+}
+#lateral-iz div{
+  padding: 4px;
+}
+#lateral-iz div:hover{
+  background: gray;
+}

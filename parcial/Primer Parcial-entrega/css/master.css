@@ -1,0 +1,27 @@
+#logo{
+  height: 100px;
+}
+header{
+  background-color: gray;
+}
+.formulario *{
+ margin-top: auto;
+ margin-bottom: auto;
+ border: auto;
+
+}
+.formulario{
+  margin-top: 10%;
+  border: 2px solid black;
+}
+.centrados{
+
+  text-align: center;
+  padding: 2px;
+  display: block;
+margin: auto;
+}
+
+#lateral-iz img{
+height: 200px;
+}
