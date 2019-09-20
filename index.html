@@ -20,86 +20,27 @@
 
 
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-12 col-md-8" id="lateral-iz">
-      <div class="c col-sm-6 col-md-3"id="0">
-        <img src="img/1.png" alt="">
-      </div>
-      <div class="c col-sm-6 col-md-3"id="1">
-        <img src="img/2.png" alt="">
-      </div>
-      <div class="c col-sm-6 col-md-3"id="2">
-        <img src="img/3.png" alt="">
-      </div>
-      <div class="c col-sm-6 col-md-3"id="3">
-        <img src="img/4.png" alt="">
-      </div>
-      <div class="c col-sm-6 col-md-3"id="4">
-        <img src="img/5.png" alt="">
-      </div>
-      <div class="c col-sm-6 col-md-3"id="5">
-        <img src="img/6.png" alt="">
-      </div>
-      <div class="c col-sm-6 col-md-3"id="6">
-        <img src="img/7.png" alt="">
-      </div>
-      <div class="c col-sm-6 col-md-3"id="7">
-        <img src="img/8.png" alt="">
-      </div>
-      <div class="c col-sm-6 col-md-3"id="8">
-        <img src="img/9.png" alt="">
-      </div>
-      <div class="c col-sm-6 col-md-3"id="9">
-        <img src="img/10.png" alt="">
-      </div>
-      <div class="c col-sm-6 col-md-3"id="10">
-        <img src="img/11.png" alt="">
-      </div>
-      <div class="c col-sm-6 col-md-3"id="11">
-        <img src="img/12.png" alt="">
-      </div>
-      <div class="c col-sm-6 col-md-3"id="12">
-        <img src="img/13.png" alt="">
-      </div>
+<form class="formulario"   >
 
-
+    <div class="centrados">
+      <LABEL for="nombre" class="centrados">Usuario: </LABEL>
+      <INPUT type="text" class="centrados" id="exampleInputEmail1"><BR>
     </div>
-    <div class="col-sm-12 col-md-4" id="lateral-der">
-
-    <table id="Columnas">
-		<tr>
-			<th>#</th>
-			<th>Carta</th>
-      <th>Cantidad</th>
-		</tr>
-
-		</table>
-
-
-
-
-      <form class="formulario" action="index.html" method="post">
-  <p class="centrados">regisro de cartas</p >
-
-          <div class="centrados">
-            <LABEL for="nombre" class="centrados">Numero: </LABEL>
-            <INPUT type="text" class="centrados" id="usuario"><BR>
-          </div>
-          <div class="centrados">
-            <LABEL for="contraseña" class="centrados">Carta</LABEL>
-            <INPUT type="password" class="centrados" id="contraseña"><BR>
-          </div>
-          <div class="centrados">
-            <INPUT type="submit" class="centrados" value="guardar">
-          </div>
-
-      </form>
+    <div class="centrados">
+      <LABEL for="contraseña" class="centrados">Contraseña</LABEL>
+      <INPUT type="password" class="centrados" id="exampleInputPassword1"><BR>
     </div>
-  </div>
-</div>
+    <div id="botones" class="centrados">
+       <input type="button" onclick="javascript:cambia_de_pagina();" value="Entrar" />
+    </div>
 
-<script src="js/js.js">
+</form>
+
+
+
+
+
+<script src="js/log.js?1">
 </script>
   </body>
 </html>

@@ -1,6 +1,6 @@
 var usuario;
 var contraseña;
-
+cambia_de_pagina();
 function  verificar(){
 
 if (usuario=="admin") {
@@ -8,18 +8,26 @@ if (usuario=="admin") {
 
 localStorage.setItem("Usuario",usuario);
 
-location.href="index.html"
+location.href="home.html"
 
   }else {
-    alert("contraseña incorrecta");
+
   }
 }else {
-  alert("usuario No encontrado");
+
 }
 
   		}
       function cambia_de_pagina(){
         usuario=document.querySelector("#exampleInputEmail1").value;
         contraseña=document.querySelector("#exampleInputPassword1").value;
-        verificar();
+        console.log("comp");
+
+        if(localStorage.getItem("Usuario") === null){
+          console.log("no existe");
+                    verificar();
+      }else{
+        console.log("existe");
+      location.href="home.html"}
       }
+    
